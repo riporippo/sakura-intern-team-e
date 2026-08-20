@@ -6,7 +6,7 @@
 # ※インフラ由来の値(FQDN / LB VIP / DB IP / 踏み台 IP)はここには置かない —
 #   tfstate が唯一の情報源(jsonnet は --tfstate、CI は terraform output で導出)。
 #   公開 FQDN は tfvars の public_fqdn で管理する
-export REGISTRY_HOST="${REGISTRY_HOST:-intern-team-e.sakuracr.jp}"
+export REGISTRY_HOST="${REGISTRY_HOST:-uuiiuuii.sakuracr.jp}"
 export REGISTRY_USER="${REGISTRY_USER:-cicd-push-user}"
 export DB_USER="${DB_USER:-sakuravel_app}"
 export DB_NAME="${DB_NAME:-sakuravel_app}"
